@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-08-30T16:45:00Z",
+  "strategy_id": "expansion_breakout_near_miss",
+  "data_fresh": false,
+  "raw_states": {},
+  "persistent_states": {},
+  "within_validated_range": false,
+  "independent_support": 0,
+  "estimated_cost_bps": 12,
+  "gate_state": "closed",
+  "size_multiplier": 0,
+  "action": "NO_TRADE",
+  "reasons": ["No base strategy remained profitable after 12 bps in the untouched final block."]
+}
