@@ -1,0 +1,17 @@
+{
+  "sources": [
+    {
+      "name": "Binance USD-M perpetual klines",
+      "file": "BTCUSDT_1m_1y_raw.csv.gz"
+    }
+  ],
+  "timezone": "UTC",
+  "start": "2025-08-30T16:45:00+00:00",
+  "end": "2026-08-30T16:45:00+00:00",
+  "instruments": [
+    "BTCUSDT"
+  ],
+  "sha256": "2c0260c24e5fe1815317cc0787eda146dffbda2a09e53d4681fe6e38ec159058",
+  "rows": 525601,
+  "missing_bars": 0
+}
