@@ -1,0 +1,14 @@
+{
+  "effective_parameter_count": 4,
+  "parameters": [
+    "family",
+    "horizon",
+    "expansion coverage",
+    "cost"
+  ],
+  "ablations": [
+    "expansion gate removed via 20% coverage",
+    "direction families compared"
+  ],
+  "selection_rule": "highest confirmation neighborhood median subject to >=1.5 trades/day"
+}
