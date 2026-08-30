@@ -1,0 +1,45 @@
+{
+  "research_mode": "strategy",
+  "costs": {
+    "round_trip_bps": [
+      0.0,
+      12.0,
+      30.0
+    ],
+    "primary": 12
+  },
+  "splits": {
+    "development": 0.55,
+    "confirmation": 0.25,
+    "final": 0.2,
+    "purge": "holding horizon"
+  },
+  "selection_rule": "confirmation neighborhood median, minimum 1.5 trades/day",
+  "parameter_budget": {
+    "variants": 1800
+  },
+  "noise_plan": {
+    "status": "minimal diagnostic; full seeded perturbation required before paper trading"
+  },
+  "regime_plan": {
+    "status": "not activated because no base strategy passed 12 bps",
+    "policy": "NO_TRADE until a base rule is validated"
+  },
+  "inference_plan": {
+    "daily_returns": "Newey-West HAC lag 7",
+    "multiplicity": "Bonferroni diagnostic"
+  },
+  "horizons": [
+    30,
+    60,
+    90,
+    120
+  ],
+  "coverages": [
+    0.2,
+    0.1,
+    0.05,
+    0.02,
+    0.01
+  ]
+}
